@@ -1,39 +1,19 @@
 <!-- src/components/Footer.vue -->
 <template>
   <footer>
-    <div class="menu" onclick="this.classList.toggle('open')">
-      <div class="button"></div>
-      <div class="button"></div>
-      <div class="button"></div>
-    </div>
     <footer class="new_footer_area bg_color">
       <div class="new_footer_top">
         <div class="container">
           <div class="row">
             <div class="col-lg-3 col-md-6">
-              <div
-                class="f_widget company_widget wow fadeInLeft"
-                data-wow-delay="0.2s"
-                style="
+              <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="
                   visibility: visible;
                   animation-delay: 0.2s;
                   animation-name: fadeInLeft;
-                "
-              >
+                ">
                 <h3 class="f-title f_600 t_color f_size_18">Nhận tin</h3>
-                <form
-                  action="#"
-                  class="f_subscribe_two mailchimp"
-                  method="post"
-                  novalidate="true"
-                  _lpchecked="1"
-                >
-                  <input
-                    type="text"
-                    name="EMAIL"
-                    class="form-control memail"
-                    placeholder="Email"
-                  />
+                <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                  <input type="text" name="EMAIL" class="form-control memail" placeholder="Email" />
                   <button class="btn btn_get btn_get_two" type="submit">
                     Subscribe
                   </button>
@@ -43,15 +23,11 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-6">
-              <div
-                class="f_widget about-widget pl_70 wow fadeInLeft"
-                data-wow-delay="0.4s"
-                style="
+              <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="
                   visibility: visible;
                   animation-delay: 0.4s;
                   animation-name: fadeInLeft;
-                "
-              >
+                ">
                 <h3 class="f-title f_600 t_color f_size_18">ĐẶT CHỖ</h3>
                 <ul class="list-unstyled f_list">
                   <li><a href="#">Tel : 076 922 0162</a></li>
@@ -60,36 +36,26 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-6">
-              <div
-                class="f_widget about-widget pl_70 wow fadeInLeft"
-                data-wow-delay="0.6s"
-                style="
+              <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="
                   visibility: visible;
                   animation-delay: 0.6s;
                   animation-name: fadeInLeft;
-                "
-              >
+                ">
                 <h3 class="f-title f_600 t_color f_size_18">Địa chỉ</h3>
                 <ul class="list-unstyled f_list">
                   <li>
-                    <a href="#"
-                      >HOTEL Mona Beach 319 C16 Lý Thường Kiệt Quận 11, TP.
-                      HCM</a
-                    >
+                    <a href="#">HOTEL Mona Beach 319 C16 Lý Thường Kiệt Quận 11, TP.
+                      HCM</a>
                   </li>
                 </ul>
               </div>
             </div>
             <div class="col-lg-3 col-md-6">
-              <div
-                class="f_widget social-widget pl_70 wow fadeInLeft"
-                data-wow-delay="0.8s"
-                style="
+              <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="
                   visibility: visible;
                   animation-delay: 0.8s;
                   animation-name: fadeInLeft;
-                "
-              >
+                ">
                 <h3 class="f-title f_600 t_color f_size_18">Chia sẽ</h3>
                 <div class="f_social_icon">
                   <a href="#" class="fab fa-facebook"></a>
@@ -124,12 +90,10 @@ export default {
 </script>
 
 <style scoped>
-footer {
-}
-
 a {
   text-decoration: none;
 }
+
 body {
   background: #fbfbfd;
 }
@@ -143,10 +107,12 @@ body {
   position: relative;
   overflow-x: hidden;
 }
+
 .new_footer_area .footer_bottom {
   padding-top: 5px;
   padding-bottom: 50px;
 }
+
 .footer_bottom {
   font-size: 14px;
   font-weight: 300;
@@ -154,6 +120,7 @@ body {
   color: #7f88a6;
   padding: 27px 0px;
 }
+
 .new_footer_top .company_widget p {
   font-size: 16px;
   font-weight: 300;
@@ -161,14 +128,17 @@ body {
   color: #6a7695;
   margin-bottom: 20px;
 }
+
 .new_footer_top .company_widget .f_subscribe_two .btn_get {
   border-width: 1px;
   margin-top: 20px;
 }
+
 .btn_get_two:hover {
   background: transparent;
   color: #5e2ced;
 }
+
 .btn_get:hover {
   color: #fff;
   background: #6754e2;
@@ -176,6 +146,7 @@ body {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
 a:hover,
 a:focus,
 .btn:hover,
@@ -189,18 +160,23 @@ button:focus {
 .new_footer_top .f_widget.about-widget .f_list li a:hover {
   color: #5e2ced;
 }
+
 .new_footer_top .f_widget.about-widget .f_list li {
   margin-bottom: 11px;
 }
+
 .f_widget.about-widget .f_list li:last-child {
   margin-bottom: 0px;
 }
+
 .f_widget.about-widget .f_list li {
   margin-bottom: 15px;
 }
+
 .f_widget.about-widget .f_list {
   margin-bottom: 0px;
 }
+
 .new_footer_top .f_social_icon a {
   width: 44px;
   height: 44px;
@@ -209,6 +185,7 @@ button:focus {
   border: 1px solid #e2e2eb;
   font-size: 24px;
 }
+
 .f_social_icon a {
   width: 46px;
   height: 46px;
@@ -223,15 +200,19 @@ button:focus {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
+
 .ti-facebook:before {
   content: "\e741";
 }
+
 .ti-twitter-alt:before {
   content: "\e74b";
 }
+
 .ti-vimeo-alt:before {
   content: "\e74a";
 }
+
 .ti-pinterest:before {
   content: "\e731";
 }
@@ -254,19 +235,24 @@ button:focus {
   border-color: #5e2ced;
   color: white;
 }
-.new_footer_top .f_social_icon a + a {
+
+.new_footer_top .f_social_icon a+a {
   margin-left: 4px;
 }
+
 .new_footer_top .f-title {
   margin-bottom: 30px;
   color: #263b5e;
 }
+
 .f_600 {
   font-weight: 600;
 }
+
 .f_size_18 {
   font-size: 18px;
 }
+
 h1,
 h2,
 h3,
@@ -275,6 +261,7 @@ h5,
 h6 {
   color: #4b505e;
 }
+
 .new_footer_top .f_widget.about-widget .f_list li a {
   color: #6a7695;
 }
@@ -282,15 +269,13 @@ h6 {
 .new_footer_top .footer_bg {
   position: absolute;
   bottom: 0;
-  background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigB8iI5tb8WSVBuVUGc9UjjB8O0708X7Fdic_4O1LT4CmLHoiwhanLXiRhe82yw0R7LgACQ2IhZaTY0hhmGi0gYp_Ynb49CVzfmXtYHUVKgXXpWvJ_oYT8cB4vzsnJLe3iCwuzj-w6PeYq_JaHmy_CoGoa6nw0FBo-2xLdOPvsLTh_fmYH2xhkaZ-OGQ/s16000/footer_bg.png")
-    no-repeat scroll center 0;
+  background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigB8iI5tb8WSVBuVUGc9UjjB8O0708X7Fdic_4O1LT4CmLHoiwhanLXiRhe82yw0R7LgACQ2IhZaTY0hhmGi0gYp_Ynb49CVzfmXtYHUVKgXXpWvJ_oYT8cB4vzsnJLe3iCwuzj-w6PeYq_JaHmy_CoGoa6nw0FBo-2xLdOPvsLTh_fmYH2xhkaZ-OGQ/s16000/footer_bg.png") no-repeat scroll center 0;
   width: 100%;
   height: 266px;
 }
 
 .new_footer_top .footer_bg .footer_bg_one {
-  background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia0PYPxwT5ifToyP3SNZeQWfJEWrUENYA5IXM6sN5vLwAKvaJS1pQVu8mOFFUa_ET4JuHNTFAxKURFerJYHDUWXLXl1vDofYXuij45JZelYOjEFoCOn7E6Vxu0fwV7ACPzArcno1rYuVxGB7JY6G7__e4_KZW4lTYIaHSLVaVLzklZBLZnQw047oq5-Q/s16000/volks.gif")
-    no-repeat center center;
+  background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia0PYPxwT5ifToyP3SNZeQWfJEWrUENYA5IXM6sN5vLwAKvaJS1pQVu8mOFFUa_ET4JuHNTFAxKURFerJYHDUWXLXl1vDofYXuij45JZelYOjEFoCOn7E6Vxu0fwV7ACPzArcno1rYuVxGB7JY6G7__e4_KZW4lTYIaHSLVaVLzklZBLZnQw047oq5-Q/s16000/volks.gif") no-repeat center center;
   width: 330px;
   height: 105px;
   background-size: 100%;
@@ -302,8 +287,7 @@ h6 {
 }
 
 .new_footer_top .footer_bg .footer_bg_two {
-  background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyLGwEUVwPK6Vi8xXMymsc-ZXVwLWyXhogZxbcXQYSY55REw_0D4VTQnsVzCrL7nsyjd0P7RVOI5NKJbQ75koZIalD8mqbMquP20fL3DxsWngKkOLOzoOf9sMuxlbyfkIBTsDw5WFUj-YJiI50yzgVjF8cZPHhEjkOP_PRTQXDHEq8AyWpBiJdN9SfQA/s16000/cyclist.gif")
-    no-repeat center center;
+  background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyLGwEUVwPK6Vi8xXMymsc-ZXVwLWyXhogZxbcXQYSY55REw_0D4VTQnsVzCrL7nsyjd0P7RVOI5NKJbQ75koZIalD8mqbMquP20fL3DxsWngKkOLOzoOf9sMuxlbyfkIBTsDw5WFUj-YJiI50yzgVjF8cZPHhEjkOP_PRTQXDHEq8AyWpBiJdN9SfQA/s16000/cyclist.gif") no-repeat center center;
   width: 88px;
   height: 100px;
   background-size: 100%;
@@ -318,6 +302,7 @@ h6 {
   0% {
     left: -25%;
   }
+
   100% {
     left: 100%;
   }
@@ -327,6 +312,7 @@ h6 {
   0% {
     left: -25%;
   }
+
   100% {
     left: 100%;
   }
@@ -336,10 +322,12 @@ h6 {
   0% {
     left: -25%;
   }
+
   100% {
     left: 100%;
   }
 }
+
 .menu {
   position: relative;
 
@@ -352,6 +340,7 @@ h6 {
     inset 7px 7px 15px rgba(55, 84, 170, 0),
     inset -7px -7px 20px rgba(255, 255, 255, 0),
     0px 0px 4px rgba(255, 255, 255, 0);
+
   &::before,
   &::after {
     content: "";
@@ -364,31 +353,40 @@ h6 {
     transition: 0.2s ease;
     z-index: 1;
   }
+
   &::before {
     transform: rotate(0deg);
   }
+
   &::after {
     transform: rotate(-90deg);
   }
+
   &.open {
     opacity: 0.9;
+
     &::before {
       transform: rotate(45deg);
     }
+
     &::after {
       transform: rotate(-45deg);
     }
+
     .button {
       opacity: 1;
       pointer-events: auto;
+
       &:first-of-type {
         bottom: 40px;
         right: 70px;
       }
+
       &:nth-of-type(2) {
         bottom: 80px;
         transition-delay: 0.05s;
       }
+
       &:last-of-type {
         bottom: 40px;
         right: -70px;
@@ -412,21 +410,23 @@ h6 {
   transition: 0.2s cubic-bezier(0.18, 0.89, 0.32, 1.28), 0.2s ease opacity,
     0.2s cubic-bezier(0.08, 0.82, 0.17, 1) transform;
   z-index: -1;
+
   &:hover {
     transform: scale(1.1);
   }
+
   &:first-of-type {
-    background: url("https://assets.codepen.io/3537853/cam.svg") no-repeat 50%/50%
-      #e8e8f3;
+    background: url("https://assets.codepen.io/3537853/cam.svg") no-repeat 50%/50% #e8e8f3;
   }
+
   &:nth-of-type(2) {
-    background: url("https://assets.codepen.io/3537853/img.svg") no-repeat 50%/ 50%
-      #e8e8f3;
+    background: url("https://assets.codepen.io/3537853/img.svg") no-repeat 50%/ 50% #e8e8f3;
   }
+
   &:last-of-type {
-    background: url("https://assets.codepen.io/3537853/music.svg") no-repeat 50%
-      45%/50% 45% #e8e8f3;
+    background: url("https://assets.codepen.io/3537853/music.svg") no-repeat 50% 45%/50% 45% #e8e8f3;
   }
 }
+
 /*************footer End*****************/
 </style>
