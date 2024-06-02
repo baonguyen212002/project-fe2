@@ -1,24 +1,24 @@
 <template>
   <header>
-    <div class="banner-header">
-      <div class="menu1">
+    <div className="banner-header">
+      <div className="menu1">
         <nav
           class="navbar navbar-expand-lg navbar-light"
           :class="{ scrolled: isScrolled }"
           id="navbar"
         >
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+          <div className="container">
+            <a className="navbar-brand" href="#">
               <img
                 :src="logo"
                 alt=""
                 width="100"
                 height="100"
-                class="d-inline-block align-text-top"
+                className="d-inline-block align-text-top"
               />
             </a>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -26,53 +26,53 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Trang chủ</a>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <a className="nav-link" href="#">Trang chủ</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">Link</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">Link</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">Link</a>
                 </li>
               </ul>
             </div>
-            <div class="searchBox">
+            <div className="searchBox">
               <input
-                class="searchInput"
+                className="searchInput"
                 type="text"
                 name=""
                 placeholder="Search"
               />
-              <button class="searchButton" href="#">
-                <i class="fa-solid fa-magnifying-glass"></i>
+              <button className="searchButton" href="#">
+                <i className="fa-solid fa-magnifying-glass"></i>
               </button>
             </div>
           </div>
         </nav>
       </div>
     </div>
-    <div class="menu2">
-      <div class="overlay-content">
-        <div class="content slide-in-left">
+    <div className="menu2">
+      <div className="overlay-content">
+        <div className="content slide-in-left">
           <h1>Trãi nghiệm cùng chung tôi</h1>
           <p>
             Thiên đương nghĩ dưỡng cho mọi du khách. Quý khách sẽ được ngắm ánh
             bình minh và chiều hoang hôn tại khu nghi duong sang trọng
           </p>
         </div>
-        <div class="Img">
+        <div className="Img">
           <img
             :src="cutoutImage"
             alt="Cutout"
-            class="cutout-image slide-in-right"
+            className="cutout-image slide-in-right"
           />
         </div>
       </div>
@@ -153,10 +153,10 @@ a.nav-link {
     ),
     url("src/assets/img/banner.jpg");
 
-  height: 150vh;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 200vh;
+  background-size: cover;
   position: relative;
 }
 
@@ -220,8 +220,5 @@ a.nav-link {
 /* Navbar styles when scrolled */
 .navbar.scrolled {
   background-color: rgb(158, 144, 117) !important;
-}
-a.navbar-brand {
-  margin-left: 38vh;
 }
 </style>
