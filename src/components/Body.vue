@@ -2,165 +2,197 @@
 <template>
   <main>
     <div class="location">
-      <div class="title">
-        <h3><a>Điểm đến nổi bật</a></h3>
+      <div class="container-lg">
+        <div class="title">
+          <h3><a>Điểm đến nổi bật</a></h3>
+        </div>
       </div>
+
       <div class="container-fluid">
         <div class="row">
-          <div class="minip">
-            <div class="mg">
-              <div class="clr"></div>
-              <div class="group">
-                <span>Sapa</span>
+          <div class="col-md-3 col-sm-12 p-3">
+            <div class="minip">
+              <div class="mg">
+                <div class="clr"></div>
+                <div class="group">
+                  <span>Sapa</span>
+                </div>
               </div>
-            </div>
-            <div class="av" style="
-              background-image: url('src/assets/img/sapa.png');
-              background-size: 100% 100%;
-              background-repeat: no-repeat;
-            "></div>
-            <div class="info">
-              <name>...</name>
-              <deets>
-                369 › he/him<br />
-                soccer player
-              </deets>
+              <div
+                class="av"
+                style="
+                  background-image: url('src/assets/img/sapa.png');
+                  background-size: 100% 100%;
+                  background-repeat: no-repeat;
+                "
+              ></div>
+              <div class="info">
+                <name>...</name>
+                <deets>
+                  369 › he/him<br />
+                  soccer player
+                </deets>
+              </div>
             </div>
           </div>
-          <div class="minip">
-            <div class="mg">
-              <div class="clr"></div>
-              <div class="group">
-                <span>PhúQuốc</span>
+          <div class="col-md-3 col-sm-12 p-3">
+            <div class="minip">
+              <div class="mg">
+                <div class="clr"></div>
+                <div class="group">
+                  <span>PhúQuốc</span>
+                </div>
               </div>
-            </div>
-            <div class="av" style="background-image: url('src/assets/img/phuquoc.png')"></div>
-            <div class="info">
-              <name>jinkyu do</name>
-              <deets>
-                369 › he/him<br />
-                soccer player
-              </deets>
+              <div
+                class="av"
+                style="background-image: url('src/assets/img/phuquoc.png')"
+              ></div>
+              <div class="info">
+                <name>jinkyu do</name>
+                <deets>
+                  369 › he/him<br />
+                  soccer player
+                </deets>
+              </div>
             </div>
           </div>
-          <div class="minip">
-            <div class="mg">
-              <div class="clr"></div>
-              <div class="group">
-                <span>Thápchampa</span>
+          <div class="col-md-3 col-sm-12 p-3">
+            <div class="minip">
+              <div class="mg">
+                <div class="clr"></div>
+                <div class="group">
+                  <span>Thápchampa</span>
+                </div>
+              </div>
+              <div
+                class="av"
+                style="background-image: url('src/assets/img/thapcham.png')"
+              ></div>
+              <div class="info">
+                <name>jinkyu do</name>
+                <deets>
+                  369 › he/him<br />
+                  soccer player
+                </deets>
               </div>
             </div>
-            <div class="av" style="background-image: url('src/assets/img/thapcham.png')"></div>
-            <div class="info">
-              <name>jinkyu do</name>
-              <deets>
-                369 › he/him<br />
-                soccer player
-              </deets>
+          </div>
+          <div class="col-md-3 col-sm-12 p-3">
+            <div class="minip">
+              <div class="mg">
+                <div class="clr"></div>
+                <div class="group">
+                  <span>Thápchampa</span>
+                </div>
+              </div>
+              <div
+                class="av"
+                style="background-image: url('src/assets/img/thapcham.png')"
+              ></div>
+              <div class="info">
+                <name>jinkyu do</name>
+                <deets>
+                  369 › he/him<br />
+                  soccer player
+                </deets>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
     </div>
     <div class="content2">
-      <div class="title">
-        <h3><a>Cẩm nang du lịch</a></h3>
-      </div>
-      <div class="container">
-
-
-        <div class="panel">
-          <div class="ring">
-            <div class="card card1"></div>
-            <div class="border">
-              <p class="title">Hoạt động đặc biệt</p>
-              <div class="slide">
-                <h6 class="para">Đi bộ trong rừng nguyên sinh</h6>
-                <div class="line">
-                  <h6 class="para">
-                    Du khách có thể cắm trại và ngủ đêm trong rừng
-                  </h6>
+      <div class="container-lg">
+        <div class="title">
+          <h3><a>Cẩm nang du lịch</a></h3>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-12 p-4">
+            <div class="panel">
+              <div class="ring">
+                <div class="card card1"></div>
+                <div class="border">
+                  <p class="title">Hoạt động đặc biệt</p>
+                  <div class="slide">
+                    <h6 class="para">Đi bộ trong rừng nguyên sinh</h6>
+                    <div class="line">
+                      <h6 class="para">
+                        Du khách có thể cắm trại và ngủ đêm trong rừng
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12 p-4">
+            <div class="panel">
+              <div class="ring">
+                <div class="card card2"></div>
+                <div class="border">
+                  <p class="title">Sắp xếp chuyến đi</p>
+                  <div class="slide">
+                    <h6 class="para">
+                      Gói ưu đãi cho tour du lịch trong nước, quốc tế
+                    </h6>
+                    <div class="line">
+                      <h6 class="para">
+                        Khởi hành đúng lịch, tiết kiệm thời gian di chuyển, chi
+                        phí tối ưu
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12 p-4">
+            <div class="panel">
+              <div class="ring">
+                <div class="card card2"></div>
+                <div class="border">
+                  <p class="title">Hướng dẫn nhiệt tình</p>
+                  <div class="slide">
+                    <h6 class="para">Đội ngũ hướng dẫn viên</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12 p-4">
+            <div class="panel">
+              <div class="ring">
+                <div class="card card3"></div>
+                <div class="border">
+                  <p class="title">Quản lý vị trí</p>
+                  <div class="slide">
+                    <h6 class="para">
+                      Bạn sẽ có thể quản lý vị trí của mình một cách hiệu quả và
+                      an toàn hơn trong suốt chuyến du lịch
+                    </h6>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
-        <div class="panel">
-          <div class="ring">
-            <div class="card card2"></div>
-            <div class="border">
-              <p class="title">Sắp xếp chuyến đi</p>
-              <div class="slide">
-                <h6 class="para">
-                  Gói ưu đãi cho tour du lịch trong nước, quốc tế
-                </h6>
-                <div class="line">
-                  <h6 class="para">
-                    Khởi hành đúng lịch, tiết kiệm thời gian di chuyển, chi
-                    phí tối ưu
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="panel">
-          <div class="ring">
-            <div class="card card2"></div>
-            <div class="border">
-              <p class="title">Hướng dẫn nhiệt tình</p>
-              <div class="slide">
-                <h6 class="para">Đội ngũ hướng dẫn viên</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="panel">
-          <div class="ring">
-            <div class="card card3"></div>
-            <div class="border">
-              <p class="title">Quản lý vị trí</p>
-              <div class="slide">
-                <h6 class="para">
-                  Bạn sẽ có thể quản lý vị trí của mình một cách hiệu quả và
-                  an toàn hơn trong suốt chuyến du lịch
-                </h6>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
       </div>
     </div>
+    <Blog />
   </main>
 </template>
 
 <script>
+import Blog from "../components/Blog.vue";
 export default {
   name: "Body",
+  components: {Blog},
 };
 </script>
 
 <style scoped>
 main {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.title h3 {
-  font-size: 25px;
-  border-bottom: 0.1rem solid #000;
-  font-weight: bold;
-  padding: 0px;
-  margin: 0px 150px 50px 150px;
-  text-transform: uppercase;
 }
 
 .minip {
@@ -287,7 +319,6 @@ main {
 
 .panel {
   height: 270px;
-  width: 190px;
   position: relative;
 
   &:hover {
@@ -388,12 +419,14 @@ main {
 }
 
 .ring:before {
-  border-color: rgb(235, 235, 235) rgb(235, 235, 235) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-color: rgb(235, 235, 235) rgb(235, 235, 235) rgba(0, 0, 0, 0)
+    rgba(0, 0, 0, 0);
   z-index: -1;
 }
 
 .ring:after {
-  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgb(235, 235, 235) rgb(235, 235, 235);
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgb(235, 235, 235)
+    rgb(235, 235, 235);
 }
 
 p {
