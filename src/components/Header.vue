@@ -12,8 +12,8 @@
               <img
                 :src="logo"
                 alt=""
-                width="100"
-                height="100"
+                width="65"
+                height="65"
                 className="d-inline-block align-text-top"
               />
             </a>
